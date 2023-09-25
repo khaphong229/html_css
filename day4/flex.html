@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        width: 700px;
+        height: 200px;
+        background-color: blue;
+        padding: 10px;
+
+    }
+    .header {
+        width: 700px;
+        height: 30%;
+        background-color: white;
+    }
+    .body {
+        gap: 10px;
+        display: flex;
+        width: 700px;
+        height: calc(70% - 10px);
+        margin-top: 10px;
+        background-color: blue;
+    }
+    .menu {
+        background-color: white;
+        height: 100%;
+        width: 150px;
+    }
+    .item {
+        position: relative;
+        height: 100%;
+        background-color: blue;
+        width: calc(100% - 150px);
+    }
+    .item1 {
+        
+        display: flex;
+        gap: 10px;
+        background-color: blue;
+        width: 100%;
+        height: 50%;
+    }
+    .main {
+        
+        background-color: white;
+        height: 100%;
+        width: 55%;
+    }
+    .right {
+        background-color: white;
+        height: 100%;
+        width: 45%;
+    }
+    .footer {
+        position: absolute;
+        top: 75px;
+        background-color: white;
+        height: calc(50% - 10px); 
+        width: 100%;
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="body">
+            <div class="menu"></div>
+            <div class="item">
+                <div class="item1">
+                    <div class="main"></div>
+                    <div class="right"></div>
+                </div>
+                <div class="footer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
